@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/sysunevernote/!svn/ver/20/1/sysunevernote
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/sysunevernote/!svn/ver/12/1/sysunevernote/wsgi.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/sysunevernote/!svn/ver/12/1/sysunevernote/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/sysunevernote/!svn/ver/20/1/sysunevernote/settings.py
+END
+hello.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/sysunevernote/!svn/ver/19/1/sysunevernote/hello.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/sysunevernote/!svn/ver/19/1/sysunevernote/urls.py
+END

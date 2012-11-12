@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/sysunevernote/!svn/ver/21/1/users
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/sysunevernote/!svn/ver/18/1/users/__init__.py
+END
+regSuccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/sysunevernote/!svn/ver/18/1/users/regSuccess.html
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/sysunevernote/!svn/ver/18/1/users/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/sysunevernote/!svn/ver/18/1/users/models.py
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/sysunevernote/!svn/ver/18/1/users/login.html
+END
+reg_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/sysunevernote/!svn/ver/21/1/users/reg_form.html
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/sysunevernote/!svn/ver/18/1/users/views.py
+END
