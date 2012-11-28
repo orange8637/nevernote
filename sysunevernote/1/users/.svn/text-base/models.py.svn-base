@@ -5,3 +5,9 @@ class User(models.Model):
 	password = models.CharField(max_length = 32)
 	email = models.EmailField()
 	regDate = models.DateField()
+
+	def __unicode__(self):
+		return self.username
+
+	class Meta:
+		db_table = "user"

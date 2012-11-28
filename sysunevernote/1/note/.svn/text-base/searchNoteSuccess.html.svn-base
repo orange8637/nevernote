@@ -1,0 +1,12 @@
+<div>
+	{% if result %}
+	{% for each in note %}
+	<li>
+	<a href="/viewNote/{{ each.nid }}">{{ each.title }} </a>
+	</li>
+	{% endfor %}
+	{% else %}
+	<h1>You search content does not exist!</h1>
+	{% endif %}
+</div>
+

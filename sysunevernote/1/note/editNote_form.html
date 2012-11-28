@@ -1,0 +1,22 @@
+<div>
+	<h1> editNote </h1>
+	<form action="" method="post">
+		<label for="title">title</label>
+		<input name="title" type="text" value="{{ note.title }}" />
+		<br />
+		<label for="tag">tag</label>
+		<input name="tag" type="text" value="{{ note.tag }}" />
+		<br />
+		<label for="isPublic">isPublic</label>
+		<input type="radio" value="True" checked="checked" name="isPublic" /> yes
+		<input type="radio" value="False" name="isPublic" /> no
+		<br />
+		<label for="content">content</label>
+		<br />
+		<textarea cols="30" rows="10" id="contactus" name="content">{{ note.content }}</textarea>
+		<br />
+		<input type="submit" value="edit" />
+	</form>
+</div>
+
+

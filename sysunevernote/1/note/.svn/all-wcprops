@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/sysunevernote/!svn/ver/23/1/note
+END
+editNote_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/sysunevernote/!svn/ver/24/1/note/editNote_form.html
+END
+searchNote_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/sysunevernote/!svn/ver/24/1/note/searchNote_form.html
+END
+viewNote.html
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/sysunevernote/!svn/ver/24/1/note/viewNote.html
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/sysunevernote/!svn/ver/24/1/note/views.py
+END
+addNote_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/sysunevernote/!svn/ver/24/1/note/addNote_form.html
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/sysunevernote/!svn/ver/23/1/note/__init__.py
+END
+viewNote_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/sysunevernote/!svn/ver/24/1/note/viewNote_form.html
+END
+searchNoteSuccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/sysunevernote/!svn/ver/24/1/note/searchNoteSuccess.html
+END
+views.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/sysunevernote/!svn/ver/28/1/note/views.pyc
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/sysunevernote/!svn/ver/23/1/note/tests.py
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/sysunevernote/!svn/ver/24/1/note/__init__.pyc
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/sysunevernote/!svn/ver/23/1/note/models.py
+END
+addNoteSuccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/sysunevernote/!svn/ver/28/1/note/addNoteSuccess.html
+END
+models.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/sysunevernote/!svn/ver/24/1/note/models.pyc
+END

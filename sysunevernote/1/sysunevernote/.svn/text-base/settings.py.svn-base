@@ -12,7 +12,7 @@ if debug:
 	#LOCAL 
 	MYSQL_DB = "nevernote"
 	MYSQL_USER = "root"
-	MYSQL_PASS = "baihan"
+	MYSQL_PASS = "root"
 	MYSQL_HOST_M = "127.0.0.1"
 	MYSQL_HOST_S = "127.0.0.1"
 	MYSQL_PORT = "3306"
@@ -138,7 +138,7 @@ if debug:
 	 # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
 	 # Always use forward slashes, even on Windows.
 	 # Don't forget to use absolute paths, not relative paths.
-		"/home/superhan/work/nevernote/sysunevernote/1"
+		"/home/kiwi/sysunevernote/1"
 	)
 else:
 	TEMPLATE_DIRS = (
@@ -157,6 +157,8 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 	'users',
+	'note',
+	'team',
 )
 
 # A sample logging configuration. The only tangible logging

@@ -4,7 +4,15 @@ def index(request):
 	content = ""
 	if 'username' in request.session:
 		username = request.session['username']
-		content = '<a href="/logout">logout</a>'
+		content = '''
+		<a href="/logout">logout</a>
+		<br />
+		<a href="/addNote">addNote</a>
+		<br />
+		<a href="/viewNote">viewNote</a>
+		<br />
+		<a href="/searchNote"> searchNote</a>
+		'''
 	else:
 		content = '<a href="/reg">register</a><br /><a href="/login">login</a>'
 	content += '<h1>hello,' + username + '</h1><br />This is Nevernote!Have a good experience!<br />' 

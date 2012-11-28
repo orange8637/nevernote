@@ -26,5 +26,19 @@ urlpatterns = patterns('',
 	(r'^login/$','users.views.login_form'),
 	(r'^login/postLogin/$','users.views.loginValidation'),
 	#logout
-	(r'^logout/','users.views.logout')
+	(r'^logout/','users.views.logout'),
+	#Note
+	#addNote
+	(r'^addNote/$', 'note.views.addNote_form'),
+	(r'^addNote/addNoteValidation/$', 'note.views.addNoteValidation'),
+	#searchNote
+	(r'^searchNote/$', 'note.views.searchNote_form'),
+	(r'^searchNote/searchNoteValidation/$', 'note.views.searchNoteValidation'),
+	#viewNote
+	(r'^viewNote/$', 'note.views.viewNote_form'),
+	(r'^viewNote/(?P<nid>\d+)/$', 'note.views.viewNote'),
+	#editNote
+	(r'^editNote/$', 'note.views.editNote'),
+	#deleteNote
+	(r'^deleteNote/$', 'note.views.deleteNote'),
 )
