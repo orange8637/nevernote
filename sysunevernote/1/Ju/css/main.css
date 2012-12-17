@@ -1,0 +1,13 @@
+/*override*/
+body{min-width:980px;background-color: rgba(217, 217, 217, 0.16);}
+.frames{overflow:hidden;}
+
+/*self-defined*/
+.frame-left{min-width:100px;width:10%;margin:0;padding:0;float:left;}
+.frame-right{min-width:600px;width:85%;margin:0;padding:0;float:right;}
+.frame-up{min-width:600px;width:85%;margin:0;padding:0;float:right;}
+.frame-info{min-width:600px;width:85%;margin:0;padding:0;float:right;}
+.frame-comment{min-width:600px;width:85%;margin:0;padding:0;float:right;}
+.frame-permissions{min-width:600px;width:85%;margin:0;padding:0;float:right;}
+#searchBox{float:right;height:30px;padding-top:15px;}
+#filterBox{margin:15px;}

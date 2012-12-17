@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Main Page</title>
+		<link rel="stylesheet" type="text/css" href="../css/modern.css">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+	</head>
+	<body>
+
+
+		<div class="page [secondary] with-sidebar" >
+        	<div class="page-header">
+        		<!-- nav-bar personal -->
+		 		<div id='nav_pMode' class='nav-bar'>
+					<div class='nav-bar-inner'>
+						<span class='element'>Nevernote®</span>
+						<ul class='menu'>
+							<li data-role='dropdown'>
+								<a href='#'>PersonalMode</a>
+								<ul class='dropdown-menu'>
+									<li class='border-color-blue'><a  id='p_mnu_pMode' href='#'>PersonalMode</a></li>
+									<li class='border-color-pink'><a  id='p_mnu_tMode' href='#'>TeamMode</a></li>
+								</ul>
+							</li>
+							<li class='divider'></li>
+							<li data-role='dropdown'>
+								<a href='#'>File</a>
+								<ul class='dropdown-menu'>
+									<li><a id='p_mnu_newNote' href='#'>New Note</a></li>
+									<li><a href='#'>New Tag</a></li>
+									<li class='divider'></li>
+									<li><a href='#'>Save Note</a></li>
+									<li><a href='#'>Save All</a></li>
+									<li class='divider'></li>
+									<li><a href='#'>Import...</a></li>
+									<li><a href='#'>Export...</a></li>
+								</ul>
+							</li>
+							<li data-role='dropdown'>
+								<a href='#'>Note</a>
+								<ul class='dropdown-menu'>
+									<li><a href='#'>Edit Note</a></li>
+									<li><a href='#'>Edit Tag</a></li>
+									<li><a href='#'>Add Comment</a></li>
+									<li><a href='#'>Add Favorites</a></li>
+									<li class='divider'></li>
+									<li><a href='#'>Versions...</a></li>
+									<li><a href='#'>Permissions...</a></li>
+								</ul>
+							</li>
+							<li data-role='dropdown'>
+								<a href='#'>Advanced</a>
+								<ul class='dropdown-menu'>
+									<li><a href='#'>Favorites Manager...</a></li>
+									<li><a href='#'>Tag Manager...</a></li>
+									<li class='divider'></li>
+									<li class='border-color-pink'><a href='#'>Push to Team...</a></li>
+								</ul>
+							</li>
+							<li data-role='dropdown'>
+								<a href='#'><i class='icon-user-2'></i>zbhno37</a>
+								<ul class='dropdown-menu'>
+									<li><a href='#'>My Profile</a></li>
+									<li class='divider'></li>
+									<li><a href='#'>Log Out</a></li>
+								</ul>
+							</li>
+							<li id='searchBox'>
+								<div class='input-control text' >
+									<input type='text' placeholder='Type to Search...'/>
+									<button class='btn-search'></button>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- nav-bar personal -->
+
+				<!-- nav-bar team --><!--about to abandom-->
+				<div id='nav_tMode' class='nav-bar bg-color-pink'>
+					<div class='nav-bar-inner'>
+						<span class='element'>Nevernote®</span>
+						<ul class='menu'>
+							<li data-role='dropdown'>
+								<a href='#'>TeamMode</a>
+								<ul class='dropdown-menu'>
+									<li class='border-color-blue'><a  id='t_mnu_pMode' href='#'>PersonalMode</a></li>
+									<li class='border-color-pink'><a  id='t_mnu_tMode' href='#'>TeamMode</a></li>
+								</ul>
+							</li>
+							<li class='divider'></li>
+							<li data-role='dropdown'>
+								<a href='#'>File</a>
+								<ul class='dropdown-menu'>
+									<li><a id='t_mnu_newNote' href='#'>New Note</a></li>
+									<li><a href='#'>New Tag</a></li>
+									<li class='divider'></li>
+									<li><a href='#'>Save Note</a></li>
+									<li><a href='#'>Save All</a></li>
+									<li class='divider'></li>
+									<li><a href='#'>Import...</a></li>
+									<li><a href='#'>Export...</a></li>
+								</ul>
+							</li>
+							<li data-role='dropdown'>
+								<a href='#'>Note</a>
+								<ul class='dropdown-menu'>
+									<li><a href='#'>Edit Note</a></li>
+									<li><a href='#'>Edit Tag</a></li>
+									<li><a href='#'>Add Comment</a></li>
+									<li><a href='#'>Add Favorites</a></li>
+									<li class='divider'></li>
+									<li><a href='#'>Versions...</a></li>
+									<li><a href='#'>Permissions...</a></li>
+								</ul>
+							</li>
+							<li data-role='dropdown'>
+								<a href='#'>Advanced</a>
+								<ul class='dropdown-menu'>
+									<li><a href='#'>Favorites Manager...</a></li>
+									<li><a href='#'>Tag Manager...</a></li>
+									<li class='divider'></li>
+									<li class='border-color-pink'><a href='#'>Push to Team...</a></li>
+								</ul>
+							</li>
+							<li data-role='dropdown'>
+								<a href='#'><i class='icon-user-2'></i>zbhno37</a>
+								<ul class='dropdown-menu'>
+									<li><a href='#'>My Profile</a></li>
+									<li class='divider'></li>
+									<li><a href='#'>Log Out</a></li>
+								</ul>
+							</li>
+							<li id='searchBox'>
+								<div class='input-control text' >
+									<input type='text' placeholder='Type to Search...'/>
+									<button class='btn-search'></button>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- nav-bar team -->
+			</div>
+
+			<!-- sidebar -->
+        	<div class="page-sidebar">
+    			<ul>
+    				<li>
+    					<div id='filterBox'class='input-control text'>
+    						<input type='text' placeholder='Filters...'/>
+    						<button class='helper'></button>
+    					</div>
+    				</li>
+    				<li class='divider'></li>
+    				<li data-role='dropdown' class='sticker sticker-color-blue'>
+    					<a><i class='icon-tag'></i>Agenda</a>
+    					<ul class='sub-menu sidebar-dropdown-menu light'>
+    						<a href><i class='icon-file'></i>eHealth</a>
+    						<a href><i class='icon-file'></i>Motivation</a>
+    						<a href style='text-align:right;'>show more...</a>
+    					</ul>
+    				</li>
+    				<li data-role='dropdown' class='sticker sticker-color-blue'>
+    					<a><i class='icon-tag'></i>ClassNotes</a>
+    					<ul class='sub-menu sidebar-dropdown-menu light'>
+    						<a href><i class='icon-file'></i>SoftEngineering</a>
+    						<a href><i class='icon-file'></i>Database</a>
+    						<a href style='text-align:center;'><img src='../img/preloader-w8-line-black.gif' height="1%"/></a>
+    					</ul>
+    				</li>
+    				<li class='divider'></li>
+    				<li data-role='dropdown' class='sticker sticker-color-blue'>
+    					<a><i class='icon-book'></i>All Notes</a>
+    					<ul class='sub-menu sidebar-dropdown-menu light'>
+    						<a href><i class='icon-file'></i>SoftEngineering</a>
+    						<a href><i class='icon-file'></i>Database</a>
+    						<a href style='text-align:center;'><img src='../img/preloader-w8-line-black.gif' height="1%"/></a>
+    					</ul>
+    				</li>
+    				<li class='divider'></li>
+    				<li data-role='dropdown' class='sticker sticker-color-blue'>
+    					<a><i class='icon-heart'></i>Favorites</a>
+    					<ul class='sub-menu sidebar-dropdown-menu light'>
+    						<a href><i class='icon-file'></i>SoftEngineering</a>
+    						<a href><i class='icon-file'></i>Database</a>
+    						<a href style='text-align:center;'><img src='../img/preloader-w8-line-black.gif' height="1%"/></a>
+    					</ul>
+    				</li>
+    			</ul>
+    		</div>
+    		<!-- sidebar -->
+ 
+        	<div class="page-region">
+        		<div class='page-control' data-role='page-control'>
+        			<!-- pagelist -->
+        			<ul id='pageList'>
+        				<li class='active'><a href='#frame1'><i class='icon-file fg-color-blue'></i>Note: *MyAgenda</a></li>
+        				<li><a href='#frame2'><i class='icon-cog fg-color-blue'></i>Advanced</a></li>
+        				<li><a href='#frame3'><i class='icon-history fg-color-blue'></i>NoteVersions</a></li>
+        				<li><a href='#frame4'><i class='icon-search fg-color-blue'></i>SearchResult</a></li>
+        				<li><a href='#frame5'><i class='icon-console fg-color-blue'></i>Debug</a></li>
+        			</ul>
+        			<!-- pagelist -->
+        			<!-- pageframe -->
+	        		<div id='pageFrames' class='frames'>
+	        			<!-- frame1:Note -->
+	        			<div class='frame active' id='frame1'>
+	        				<!-- frame1:left -->
+	        				<div class='frame-left'>
+	        					<button id='btn_vMode' class='shortcut'>
+		        					<span class='icon'>
+		        						<i class='icon-eye'></i>
+		        					</span>
+		        					<span class='label'>
+		        						View Mode
+		        					</span>		        					
+		        				</button>
+
+		        				<button id='btn_eMode' class='shortcut'>
+		        					<span class='icon'>
+		        						<i class='icon-pencil'></i>
+		        					</span>
+		        					<span class='label'>
+		        						Edit Mode
+		        					</span>		        					
+		        				</button>
+
+		        				<button id='btn_comments' class='shortcut'>
+		        					<span class='icon'>
+		        						<i class='icon-comments-4'></i>
+		        					</span>
+		        					<span class='label'>
+		        						Comments
+		        					</span>
+		        					<span class='badge'>7</span>
+		        				</button>
+
+		        				<button id='btn_favorites' class='shortcut'>
+		        					<span class='icon'>
+		        						<i id='isFavor' class='icon-heart'></i>
+		        					</span>
+		        					<span class='label'>
+		        						Favorites
+		        					</span>
+		        				</button>
+
+		        				<button id='btn_permissions' class='shortcut'>
+		        					<span class='icon'>
+		        						<i class='icon-locked'></i>
+		        					</span>
+		        					<span class='label'>
+		        						Permissions
+		        					</span>
+		        					<span class='badge'>Public</span>
+		        				</button>
+
+		        				<button id='btn_versions' class='shortcut'>
+		        					<span class='icon'>
+		        						<i class='icon-history'></i>
+		        					</span>
+		        					<span class='label'>
+		        						Versions
+		        					</span>
+		        					<span class='badge'>5</span>
+		        				</button>
+	        				</div>
+	        				<!-- frame1:left -->
+	        				<!-- frame1:up -->
+	        				<div class='frame-up'>
+	        					<button id='mini_save' class='mini'><i class='icon-checkmark'></i>Save</button>
+	        					<button id='mini_abandon' class='mini'><i class='icon-cancel-2'></i>Abandon</button>
+	        					<button id='mini_reload' class='mini'><i class='icon-undo'></i>Reload</button>
+	        					<button id='mini_delete' class='mini'><i class='icon-remove'></i>Delete</button>
+	        				</div>
+	        				<!-- frame1:up -->
+	        				<!-- frame1:info -->
+	        				<div class='frame-info'>
+	        					<h2 id='v_title' class='fg-color-blue'>Sample Note Title</h2>
+	        					<div id='e_title' class='input-control text'>
+	        						<input id='e_title_e' type='text' placeholder='Enter A Note Title'/>
+	        						<button class='helper'></button>
+	        					</div>
+	        					<h4 id='v_tags' class='fg-color-blue'><i class='icon-tag'></i>Agenda,<i class='icon-tag'></i>ClassNotes</h4>
+	        					<div id='e_tags' class='input-control text'>
+	        						<input id='e_tags_e' type='text' placeholder='Tags Saparated by Period Mark'/>
+	        						<button class='helper'></button>
+	        					</div>
+	        					<h5 id='v_time' class='fg-color-blue'>Date Created : 11:16 12-15 2012</h5>
+	        				</div>
+	        				<!-- frame1:info -->
+	        				<!-- frame1:right -->
+	        				<div class='frame-right'>
+	        					<div id='v_content'>Original Text Here~~<br/>This is the original text.</div>
+	        					<div id='e_content' class='input-control textarea'>
+	        						<textarea id='e_content_e' placeholder='Say something...' style='overflow:hidden' onpropertychange="setHeight(this);" onmouseover="setHeight(this);" 
+onpaste="setHeight(this);" oninput="setHeight(this);"></textarea>
+	        					</div>
+	        				</div>
+	        				<!-- frame1:right -->
+	        				<!-- frame1:comment -->
+	        				<div class='frame-comment'>
+	        					<fieldset>
+	        						<legend>Comments</legend>
+	        						<div id='list_comment'>
+		        						<blockquote>
+		        							The note is quite useful.
+		        							<small>David,11:27 12-15 2012</small>
+		        						</blockquote>
+		        						<blockquote>
+		        							I don't like it.
+		        							<small>Alice,11:27 12-15 2012</small>
+		        						</blockquote>
+	        						</div>
+	        						<h4>Leave A Comment</h4>
+	        						<div class='input-control textarea'>
+	        							<textarea id='txt_comment' placeholder='Say something...' style='overflow:hidden' onpropertychange="setHeight(this);" onmouseover="setHeight(this);" 
+onpaste="setHeight(this);" oninput="setHeight(this);"></textarea>
+	        							<button id='btn_sendComment' class='helper'>Send</button>
+	        						</div>
+	        					</fieldset>
+	        				</div>
+	        				<!-- frame1:comment -->
+	        				<!-- frame1:permissions -->
+	        				<div class='frame-permissions'>
+	        					<fieldset>
+	        						<legend>Note Permissions</legend>
+	        						<h3>Instructions</h3>
+	        						<p>You can adjust the permissions settings of this note.</p>
+	        						<h3>Public Permissions</h3>
+	        						<p>
+	        							<label class='input-control switch'>
+	        								<input type='checkbox'>
+	        								<span class='helper'>View</span>
+	        							</label>
+	        							<label class='input-control switch'>
+	        								<input type='checkbox'>
+	        								<span class='helper'>Edit</span>
+	        							</label>
+	        							<label class='input-control switch'>
+	        								<input type='checkbox'>
+	        								<span class='helper'>Comment</span>
+	        							</label>
+	        						</p>
+	        					</fieldset>
+	        				</div>
+	        				<!-- frame2:permissions -->        				
+	        			</div>
+	        			<!-- frame1:Note -->
+	        			<!-- frame2:Advanced -->
+	        			<div class='frame' id='frame2'>
+	        				<fieldset>
+	        					<legend>TAGs Manager</legend>
+	        					TAGs Here to Manage
+	        				</fieldset>
+	        				<fieldset>
+	        					<legend>Favorites Manager</legend>
+	        					Your Favorites Here
+	        				</fieldset>
+	        			</div>
+	        			<!-- frame2:Advanced -->
+	        			<!-- frame3:NoteVersions -->
+	        			<div class='frame' id='frame3'>
+	        				<fieldset>
+	        					<legend>Version History</legend>
+	        					Here you can see and manage all the previous versions of the note.
+	        				</fieldset>
+	        				<fieldset>
+	        					<legend>Note Branches</legend>
+	        					Here you can manage branches of your note.
+	        				</fieldset>
+	        			</div>
+	        			<!-- frame3:NoteVersions -->
+	        			<div class='frame' id='frame4'>SearchPage</div>
+	        			<div class='frame' id='frame5'>Debug</div>
+	        		</div>
+	        		<!-- pageframe -->
+	        	</div>
+        	</div>
+    	</div>
+
+		<script src='../js/main.js'></script>
+		<script src='../js/jquery-1.8.3.min.js'></script>
+		<script src='../js/UI/dropdown.js'></script>
+		<script src='../js/UI/pagecontrol.js'></script>
+</html>

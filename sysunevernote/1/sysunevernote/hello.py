@@ -7,11 +7,15 @@ def index(request):
 		content = '''
 		<a href="/logout">logout</a>
 		<br />
-		<a href="/addNote">addNote</a>
+		<a href="/addNote/form">addNote</a>
 		<br />
-		<a href="/viewNote">viewNote</a>
+		<a href="/getNoteList">getNoteList</a>
 		<br />
-		<a href="/searchNote"> searchNote</a>
+		<a href="/searchNote/form"> searchNote</a>
+		<br />
+		<a href="/addTeam/form">addTeam</a>
+		<br />
+		<a href="/getTeamList">getTeamList</a>	
 		'''
 	else:
 		content = '<a href="/reg">register</a><br /><a href="/login">login</a>'

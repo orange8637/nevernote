@@ -1,0 +1,15 @@
+<div>
+	<h1>addTeam</h1>
+	<form action="/addTeam/" method="post">
+		<label for="name">name</label>
+		<input name="name" type="text" />
+		<br />
+		information
+		<br />
+		<textarea cols="30" rows="7" id="contactus" name="infomation"></textarea>
+		<br />
+		<input type="submit" value="create" />
+	</form>
+</div>
+
+

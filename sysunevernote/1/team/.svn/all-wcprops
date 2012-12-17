@@ -1,13 +1,31 @@
 K 25
 svn:wc:ra_dav:version-url
-V 33
-/sysunevernote/!svn/ver/23/1/team
+V 34
+/sysunevernote/!svn/ver/196/1/team
 END
 views.py
 K 25
 svn:wc:ra_dav:version-url
-V 42
-/sysunevernote/!svn/ver/23/1/team/views.py
+V 43
+/sysunevernote/!svn/ver/196/1/team/views.py
+END
+viewTeam.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/sysunevernote/!svn/ver/196/1/team/viewTeam.html
+END
+addTeam_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/sysunevernote/!svn/ver/195/1/team/addTeam_form.html
+END
+getTeamList.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/sysunevernote/!svn/ver/195/1/team/getTeamList.html
 END
 __init__.py
 K 25

@@ -3,24 +3,6 @@ svn:wc:ra_dav:version-url
 V 34
 /sysunevernote/!svn/ver/22/1/users
 END
-regSuccess.html
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/sysunevernote/!svn/ver/18/1/users/regSuccess.html
-END
-tests.py
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/sysunevernote/!svn/ver/18/1/users/tests.py
-END
-models.py
-K 25
-svn:wc:ra_dav:version-url
-V 44
-/sysunevernote/!svn/ver/22/1/users/models.py
-END
 login.html
 K 25
 svn:wc:ra_dav:version-url
@@ -44,4 +26,22 @@ K 25
 svn:wc:ra_dav:version-url
 V 46
 /sysunevernote/!svn/ver/18/1/users/__init__.py
+END
+regSuccess.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/sysunevernote/!svn/ver/18/1/users/regSuccess.html
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/sysunevernote/!svn/ver/18/1/users/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/sysunevernote/!svn/ver/22/1/users/models.py
 END

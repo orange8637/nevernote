@@ -29,16 +29,40 @@ urlpatterns = patterns('',
 	(r'^logout/','users.views.logout'),
 	#Note
 	#addNote
-	(r'^addNote/$', 'note.views.addNote_form'),
-	(r'^addNote/addNoteValidation/$', 'note.views.addNoteValidation'),
+	(r'^addNote/$', 'note.views.addNoteValidation'),
+	(r'^addNote/form/$', 'note.views.addNote_form'),
 	#searchNote
-	(r'^searchNote/$', 'note.views.searchNote_form'),
-	(r'^searchNote/searchNoteValidation/$', 'note.views.searchNoteValidation'),
+	(r'^searchNote/form$', 'note.views.searchNote_form'),
+	(r'^searchNote/$', 'note.views.searchNoteValidation'),
 	#viewNote
-	(r'^viewNote/$', 'note.views.viewNote_form'),
+	(r'^getNoteList/$', 'note.views.getNoteList'),
+	(r'^getNoteList/(?P<tag>.+)/$', 'note.views.getNoteList'),
 	(r'^viewNote/(?P<nid>\d+)/$', 'note.views.viewNote'),
 	#editNote
-	(r'^editNote/$', 'note.views.editNote'),
+	(r'^editNote/(?P<nid>\d+)/$', 'note.views.editNoteValidation'),
 	#deleteNote
-	(r'^deleteNote/$', 'note.views.deleteNote'),
+	(r'^deleteNote/(?P<nid>\d+)/$', 'note.views.deleteNote'),
+	#Team
+	#addTeam
+	(r'^addTeam/$', 'team.views.addTeamValidation'),
+	(r'^addTeam/form/$', 'team.views.addTeam_form'),
+	#viewTeam
+	(r'^getTeamList/$', 'team.views.getTeamList'),
+	(r'^viewTeam/(?P<tid>\d+)/$', 'team.views.viewTeam'),
+	#JuTest
+	(r'^Ju/hello/$','Ju.test.sayHello'),
+	(r'^Ju/paras/(\d)/$','Ju.test.paraHandler'),
+	(r'^Ju/mod/(.*)/$','Ju.test.moduleTest'),
+	(r'^Ju/mvc/$','Ju.test.mvc'),
+	(r'^Ju/ajax/(.*)/$','Ju.test.ajax'),
+	(r'^Ju/main','Ju.test.main'),
+	##JuTest Response
+	# (r'^Ju/function/ajaxResponse/(.*)/$','Ju.test.ajaxResponse'),
+	(r'^Ju/function/ajaxResponse/$','Ju.test.ajaxResponse'),
+	#JuAJAX Necessities
+	# (r'^function/(?P<path>.*)$','django.views.static.serve',{'document_root':'Ju/function'}),
+	(r'^js/(?P<path>.*)$','django.views.static.serve',{'document_root':'Ju/js'}),
+	(r'^css/(?P<path>.*)$','django.views.static.serve',{'document_root':'Ju/css'}),
+	(r'^img/(?P<path>.*)$','django.views.static.serve',{'document_root':'Ju/img'}),
+	(r'^fonts/(?P<path>.*)$','django.views.static.serve',{'document_root':'Ju/fonts'}),
 )

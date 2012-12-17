@@ -1,0 +1,15 @@
+<div>
+	team name:
+	<br />
+	{{ teaminfo.name }}
+	<br />
+	you are  {% if not permissionType %} adminastrator
+	{% else %} member
+	{% endif %}
+	<br />
+	team infomation:
+	<br />
+	{{ teaminfo.infomation }}
+	<br />
+	
+</div>
